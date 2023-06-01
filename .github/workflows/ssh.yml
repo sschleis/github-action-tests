@@ -1,7 +1,8 @@
 name: SSH Touch
 
 on:
-    push: ["main"]
+    push:
+        branches: [ "main" ]
 
 jobs:
     touch:
