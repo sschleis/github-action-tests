@@ -15,4 +15,4 @@ jobs:
                 username: ${{ secrets.USERNAME }}
                 key: ${{ secrets.KEY }}
                 port: ${{ secrets.PORT }}
-                script: touch /bot/12345.yml
+                script: ../bot/ai_name.sh
